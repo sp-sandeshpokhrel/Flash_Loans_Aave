@@ -18,8 +18,8 @@ To get started with this project, follow these steps:
 
 1. Clone the repository:
     ```shell
-    git clone https://github.com/your-username/hardhat-flashloan-project.git
-    cd hardhat-flashloan-project
+    git clone https://github.com/sp-sandeshpokhrel/Flash_Loans_Aave.git
+    cd Flash_Loans_Aave
     ```
 2. Install dependencies:
     ```shell
@@ -28,7 +28,7 @@ To get started with this project, follow these steps:
 3. Deploy the contracts to the Sepolia testnet:
     ```shell
     npx hardhat run scripts/deployDex.js --network sepolia
-    npx hardhat run scripts/deployFlashLoanArbitrage
+    npx hardhat run scripts/deployFlashLoanArbitrage --network sepolia
     ```
 4. Usage
    Call the requestFlashLoan function on the FlashLoanArbitrage contract to execute a flash loan.
